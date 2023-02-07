@@ -30,4 +30,20 @@ function gen_table(){
     }else{
         alert("Falta ingresar un Número");
     }
+    const miArray = ["capital", "cuotas", "interes"]
+    const cant = miArray.length; 
+    var nombre = miArray[0];
+    
+    console.log(document)
+    document.querySelector("h1")
+    console.log (document.querySelector("h1") )
+
+    
+}
+
+function guardar_localstorage(){
+    localStorage.setItem("capital" ,JSON.stringify( capital) );
+    localStorage.setItem("cuotas" ,JSON.stringify( cuotas )  );
+    localStorage.seltem("interes" ,JSON.stringify( interes ) );
+
 }
